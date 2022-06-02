@@ -1,6 +1,6 @@
 const Discord = require("discord.js");
 const fs = require("fs");
-const devs = "681553671364018196";
+const devs = "900805797683028078";
 const moment = require("moment");
 const client = new Discord.Client();
 const express = require('express');
@@ -11,7 +11,7 @@ app.get('/', (req, res) => {
 app.listen(3000, () => {
   console.log('Server Started.');
 });
-client.login("ODY3MjA4MzU5MzM3Mzk0MTk0.YPdwuA.3A7bYAjbwYc9XPwZIppd6FinqxM");
+client.login("OTgwNjQ3MzI1OTgwNTczNzM2.G14Dxx.c-zI06yB-FNCKGUlzirKsv3Bbzt3CcDPElJ3tY");
 const prefix = "+";
 ////////////////////////
 client.on("message", message => {
@@ -63,11 +63,11 @@ const embed = new Discord.MessageEmbed()
 **[ invite ](https://discord.com/api/oauth2/authorize?client_id=867208331659706379&permissions=8&scope=bot)** , **[ support ](https://discord.gg/9n6dj99ZEN)**
  `)
     
-    .setFooter(` System bot ✨ | Coded by , JANO`, client.user.avatarURL)
-    .setURL("https://discord.gg/9n6dj99ZEN")
+    .setFooter(` System bot ✨ | Coded by , Karo`, client.user.avatarURL)
+    .setURL("https://discord.gg/gPmh8bK4a7")
       
     message.channel.send(embed);
-    message.react("<a:jano_27:799630916820795422>");
+    message.react("");
   }
 });
 
