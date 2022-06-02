@@ -60,7 +60,7 @@ const embed = new Discord.MessageEmbed()
 > \` use onle owner ship or administrator or MENTION_EVERYONE send [@everyone] \`
 > \` anti link use onle owner ship ord administrator or manage message send [anti partner] \`
 
-**[ invite ](https://discord.com/api/oauth2/authorize?client_id=867208331659706379&permissions=8&scope=bot)** , **[ support ](https://discord.gg/9n6dj99ZEN)**
+**[ invite ](https://discord.com/api/oauth2/authorize?client_id=980647325980573736&permissions=8&scope=bot)** , **[ support ](https://discord.gg/gPmh8bK4a7)**
  `)
     
     .setFooter(` System bot ✨ | Coded by , Karo`, client.user.avatarURL)
