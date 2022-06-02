@@ -64,7 +64,7 @@ const embed = new Discord.MessageEmbed()
  `)
     
     .setFooter(` System bot ✨ | Coded by , Karo`, client.user.avatarURL)
-    .setURL("https://discord.gg/gPmh8bK4a7")
+    .setURL("https://discord.gg/PU9hu4uzCD")
       
     message.channel.send(embed);
     message.react("");
@@ -293,7 +293,7 @@ client.on("message", message => {
       .setThumbnail(client.user.avatarURL())
       .setDescription(`
  
-[support](https://discord.gg/gPmh8bK4a7)`);
+[support](https://discord.gg/PU9hu4uzCD)`);
     message.channel.send(embed);
   }
 });
