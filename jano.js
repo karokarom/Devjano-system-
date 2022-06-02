@@ -148,7 +148,7 @@ client.on('ready', () => {
 	console.log(`${client.users.cache.size} Members`);
 	console.log(`${client.channels.cache.size} Channels`);
 	console.log(`[ ${client.guilds.cache.map(g => g.name).join(', \n ')} ]`);
-	client.user.setActivity(`${prefix}help  Server ${client.guilds.cache.size} , Users ${client.guilds.cache.reduce((a, g) => a + g.memberCount, 0)}`, { type: 'PLAYING' });
+	client.user.setActivity(`${prefix}help | By Karo | Server ${client.guilds.cache.size} , Users ${client.guilds.cache.reduce((a, g) => a + g.memberCount, 0)}`, { type: 'PLAYING' });
 });
 /////////////////
 
@@ -293,7 +293,7 @@ client.on("message", message => {
       .setThumbnail(client.user.avatarURL())
       .setDescription(`
  
-[support](https://discord.gg/9n6dj99ZEN)`);
+[support](https://discord.gg/gPmh8bK4a7)`);
     message.channel.send(embed);
   }
 });
@@ -306,7 +306,7 @@ client.on("message", message => {
       .setColor("RANDOM")
       .setThumbnail(client.user.avatarURL())
       .setDescription(`
-[invite](https://discord.com/api/oauth2/authorize?client_id=867208331659706379&permissions=8&scope=bot)
+[invite](https://discord.com/api/oauth2/authorize?client_id=980647325980573736&permissions=8&scope=bot)
 `);
     message.channel.send(embed);
   }
